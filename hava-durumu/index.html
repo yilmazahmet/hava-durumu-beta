@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hava Durumu</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <h4 class="text-center mb-4">Hava Durumu</h4>
+                <div class="weather-info">
+                    <div class="location form-group">
+                        <label for="city-input">Şehir:</label>
+                        <input type="text" id="city-input" class="form-control">
+                        <button id="search-btn" class="btn btn-primary mt-3">Ara</button>
+                    </div>
+                    <div class="weather-details">
+                        <div id="weather-icon"></div>
+                        <div id="temperature"></div>
+                        <div id="description"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="animation-container"></div>
+    <script src="script.js"></script>
+</body>
+
+</html>
